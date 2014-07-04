@@ -1,0 +1,64 @@
+/* All visual object initialisation */
+#player{
+    height: 30px;
+    width: 30px;
+    background-color: #32cd32;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.enemy{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+}
+
+.powerup{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 410px;
+}
+
+/* Player and Figures' specific CSS */
+.lane1{
+    margin-top: 50px;
+}
+
+.lane2{
+    margin-top: 100px;
+}
+
+.lane3{
+    margin-top: 150px;
+}
+
+.slowed{ /* niet gebruikt */
+    box-sizing:border-box;
+    border: 6px solid #00008b;
+    background-color: #d30000;
+}
+
+/* Lane specific CSS */
+#l1{
+    width: 1500px;
+    border: 1px solid #cacaca;
+    position: absolute;
+    margin-top: 65px;
+}
+
+#l2{
+    width: 1500px;
+    border: 1px solid #cacaca;
+    position: absolute;
+    margin-top: 115px;
+}
+
+#l3{
+    width: 1500px;
+    border: 1px solid #cacaca;
+    position: absolute;
+    margin-top: 165px;
+}
